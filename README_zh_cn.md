@@ -141,6 +141,25 @@ python3 gradio_app.py
 运行命令后，打开浏览器访问 `http://localhost:7860`
 
 
+## Prompt输入规范建议
+
+1. 请使用英文输入，尽量在60个单词以内。
+   
+2. 支持对动作进行简单描述，或对人体四肢、躯干动作的详细描述。
+   
+3. 暂不支持以下内容：
+ - ❌动物或非人形动画；
+ - ❌对角色的情绪或外观描述；
+ - ❌对物体、场景的描述；
+ - ❌多人动画生成；
+ - ❌循环/原地动画生成。
+
+4. Prompt参考案例：
+ - A person performs a squat, then pushes a barbell overhead using the power from standing up.
+ - A person climbs upward, moving up the slope.
+ - A person stands up from the chair, then stretches their arms.
+ - A person walks unsteadily, then slowly sits down.
+
 
 ## 🔗 引用 (BibTeX)
 

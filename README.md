@@ -140,6 +140,27 @@ python3 gradio_app.py
 After running the command, open your browser and visit `http://localhost:7860`
 
 
+## Prompting Guide & Best Practices
+
+1. Language & Length: Please use English. For optimal results, keep your prompt under 60 words. For other languages, please use the Text2MotionPrompter to rewrite the prompt. 
+
+2. Content Focus: Focus on action descriptions or detailed movements of the limbs and torso.
+
+3. Current Limitations (**NOT** Supported):
+
+ - ❌ Non-humanoid Characters: Animations for animals or non-human creatures. 
+ - ❌ Subjective/Visual Attributes: Descriptions of complex emotions, clothing, or physical appearance. 
+ - ❌ Environment & Camera: Descriptions of objects, scenes, or camera angles. 
+ - ❌ Multi-person Interactions: Motions involving two or more people. 
+ - ❌ Special Modes: Seamless loop or in-place animations. 
+
+4. Example Prompts:
+ - A person performs a squat, then pushes a barbell overhead using the power from standing up.
+ - A person climbs upward, moving up the slope.
+ - A person stands up from the chair, then stretches their arms.
+ - A person walks unsteadily, then slowly sits down.
+
+
 ## 🔗 BibTeX
 
 If you found this repository helpful, please cite our reports:
