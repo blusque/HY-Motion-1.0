@@ -77,12 +77,12 @@
 
 **HY-Motion 1.0 Series**
 
-| Model | Description | Date | Size | Huggingface |
-|:-------|:-------------|:------:|:------:|:-------------:|
-| **HY-Motion-1.0** | Standard Text to Motion Generation Model | 2025-12-30 | 1.0B | [Download](https://huggingface.co/tencent/HY-Motion-1.0/tree/main/HY-Motion-1.0) |
-| **HY-Motion-1.0-Lite** | Lightweight Text to Motion Generation Model | 2025-12-30 | 0.46B | [Download](https://huggingface.co/tencent/HY-Motion-1.0/tree/main/HY-Motion-1.0-Lite) |
+| Model | Description | Date | Size | Huggingface | VRAM (min) |
+|:-------|:-------------|:------:|:------:|:-------------:|:-------------:|
+| **HY-Motion-1.0** | Standard Text2Motion Model | 2025-12-30 | 1.0B | [Download](https://huggingface.co/tencent/HY-Motion-1.0/tree/main/HY-Motion-1.0) | 26GB |
+| **HY-Motion-1.0-Lite** | Lightweight Text2Motion Model | 2025-12-30 | 0.46B | [Download](https://huggingface.co/tencent/HY-Motion-1.0/tree/main/HY-Motion-1.0-Lite) | 24GB |
 
-
+*Note*: To reduce GPU VRAM requirements, please use the following settings: `--num_seeds=1`, text prompt with less than 30 words, and motion length less than 5 seconds.  
 
 ## 🤗 Get Started with HY-Motion 1.0
 

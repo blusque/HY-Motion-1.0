@@ -80,10 +80,12 @@
 
 **HY-Motion-1.0 系列**
 
-| 模型 | 描述 | 日期 | 大小 | Huggingface |
-|:-------|:-------------|:------:|:------:|:-------------:|
-| **HY-Motion-1.0** | 标准文本生成动作模型 | 2025-12-30 | 1.0B | [下载](https://huggingface.co/tencent/HY-Motion-1.0/tree/main/HY-Motion-1.0) |
-| **HY-Motion-1.0-Lite** | 轻量级文本生成动作模型 | 2025-12-30 | 0.46B | [下载](https://huggingface.co/tencent/HY-Motion-1.0/tree/main/HY-Motion-1.0-Lite) |
+| 模型 | 描述 | 日期 | 大小 | Huggingface | GPU显存最少占用 |
+|:-------|:-------------|:------:|:------:|:-------------:|:-------------:|
+| **HY-Motion-1.0** | 标准文生动作模型 | 2025-12-30 | 1.0B | [下载](https://huggingface.co/tencent/HY-Motion-1.0/tree/main/HY-Motion-1.0) | 26GB |
+| **HY-Motion-1.0-Lite** | 轻量级文生动作模型 | 2025-12-30 | 0.46B | [下载](https://huggingface.co/tencent/HY-Motion-1.0/tree/main/HY-Motion-1.0-Lite) | 24GB |
+
+*注*: 如果要减少GPU显存占用，可以使用以下配置: `--num_seeds=1`, 文本输入不超过30个单次, 动作长度不超过5秒.  
 
 ## 🤗 快速上手 HY-Motion 1.0
 
