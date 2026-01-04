@@ -14,10 +14,10 @@ These are the main DiT-based motion generation models. You can choose between th
 **Manual Download Command:**
 ```bash
 # Example for Standard version
-huggingface-cli download tencent/HY-Motion-1.0/HY-Motion-1.0 --local-dir ckpts/tencent/HY-Motion-1.0
+huggingface-cli download tencent/HY-Motion-1.0 --include "HY-Motion-1.0/*" --local-dir ckpts/tencent
 
 # Example for Lite version
-huggingface-cli download tencent/HY-Motion-1.0/HY-Motion-1.0-Lite --local-dir ckpts/tencent/HY-Motion-1.0-Lite
+huggingface-cli download tencent/HY-Motion-1.0 --include "HY-Motion-1.0-Lite/*" --local-dir ckpts/tencent
 ```
 
 ## 2. Text Encoders
